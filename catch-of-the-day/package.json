@@ -5,6 +5,7 @@
   "homepage": "https://jenkaplan.github.io/Catch-Of-The-Day/",
   "devDependencies": {
     "autoprefixer-stylus": "0.10.0",
+    "babel-eslint": "^7.1.1",
     "concurrently": "3.0.0",
     "stylus": "0.54.5",
     "autoprefixer": "6.4.1",
@@ -50,6 +51,12 @@
     "webpack": "1.13.2",
     "webpack-dev-server": "1.16.1",
     "whatwg-fetch": "1.0.0"
+    "eslint": "^3.12.2",
+    "eslint-plugin-flowtype": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.8.0",
+    "react-scripts": "0.6.1",
+    "stylus": "0.54.5"
   },
   "dependencies": {
     "history": "4.2.0",
@@ -92,5 +99,6 @@
     "presets": [
       "react-app"
     ]
+    "extends": "./node_modules/react-scripts/.eslintrc"
   }
 }
